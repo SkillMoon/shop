@@ -13,6 +13,7 @@ while True:
     print("1. View Shop List")
     print("2. Add Shop Item")
     print("3. Remove Shop Item")
+    print("4. view shop list")
     print("4. Exit")
     print("-" * 20)
     user_input = input("Enter your choice: ")
@@ -32,6 +33,11 @@ while True:
         SaveShopList(shop_list)
         print("successfully removed")
     elif user_input == "4":
+        print("***Shop List***")
+        for item in shop_list:
+            print(f"- {item}")
+        print("-" * 20)
+    elif user_input == "5":
         break
     else:
         print("invalid input")
