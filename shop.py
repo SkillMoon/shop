@@ -33,7 +33,11 @@ while True:
         SaveShopList(shop_list)
         print("successfully removed")
     elif user_input == "4":
+<<<<<<< HEAD
         print("**Shop List**")
+=======
+        print("Shop List")
+>>>>>>> feature
         for item in shop_list:
             print(f"- {item}")
         print("-" * 20)
