@@ -9,7 +9,7 @@ while True:
         items = file.readlines()
         if items:
             shop_list = [item.strip() for item in items]
-    print("***Shop List***")
+    print("**Shop List**")
     print("1. View Shop List")
     print("2. Add Shop Item")
     print("3. Remove Shop Item")
